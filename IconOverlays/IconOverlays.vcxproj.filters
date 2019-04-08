@@ -133,6 +133,24 @@
     <None Include="IconOverlay16.rgs">
       <Filter>Resource Files\IconOverlays</Filter>
     </None>
+    <None Include="IconOverlay17.rgs">
+      <Filter>Resource Files\IconOverlays</Filter>
+    </None>
+    <None Include="IconOverlay18.rgs">
+      <Filter>Resource Files\IconOverlays</Filter>
+    </None>
+    <None Include="IconOverlay19.rgs">
+      <Filter>Resource Files\IconOverlays</Filter>
+    </None>
+    <None Include="IconOverlay20.rgs">
+      <Filter>Resource Files\IconOverlays</Filter>
+    </None>
+    <None Include="IconOverlay21.rgs">
+      <Filter>Resource Files\IconOverlays</Filter>
+    </None>
+    <None Include="IconOverlay22.rgs">
+      <Filter>Resource Files\IconOverlays</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Midl Include="IconOverlays.idl">

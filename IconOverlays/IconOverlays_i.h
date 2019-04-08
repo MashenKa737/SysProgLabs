@@ -156,6 +156,48 @@ typedef interface IIconOverlay16 IIconOverlay16;
 #endif 	/* __IIconOverlay16_FWD_DEFINED__ */
 
 
+#ifndef __IIconOverlay17_FWD_DEFINED__
+#define __IIconOverlay17_FWD_DEFINED__
+typedef interface IIconOverlay17 IIconOverlay17;
+
+#endif 	/* __IIconOverlay17_FWD_DEFINED__ */
+
+
+#ifndef __IIconOverlay18_FWD_DEFINED__
+#define __IIconOverlay18_FWD_DEFINED__
+typedef interface IIconOverlay18 IIconOverlay18;
+
+#endif 	/* __IIconOverlay18_FWD_DEFINED__ */
+
+
+#ifndef __IIconOverlay19_FWD_DEFINED__
+#define __IIconOverlay19_FWD_DEFINED__
+typedef interface IIconOverlay19 IIconOverlay19;
+
+#endif 	/* __IIconOverlay19_FWD_DEFINED__ */
+
+
+#ifndef __IIconOverlay20_FWD_DEFINED__
+#define __IIconOverlay20_FWD_DEFINED__
+typedef interface IIconOverlay20 IIconOverlay20;
+
+#endif 	/* __IIconOverlay20_FWD_DEFINED__ */
+
+
+#ifndef __IIconOverlay21_FWD_DEFINED__
+#define __IIconOverlay21_FWD_DEFINED__
+typedef interface IIconOverlay21 IIconOverlay21;
+
+#endif 	/* __IIconOverlay21_FWD_DEFINED__ */
+
+
+#ifndef __IIconOverlay22_FWD_DEFINED__
+#define __IIconOverlay22_FWD_DEFINED__
+typedef interface IIconOverlay22 IIconOverlay22;
+
+#endif 	/* __IIconOverlay22_FWD_DEFINED__ */
+
+
 #ifndef __IconOverlay1_FWD_DEFINED__
 #define __IconOverlay1_FWD_DEFINED__
 
@@ -346,6 +388,78 @@ typedef struct IconOverlay16 IconOverlay16;
 #endif /* __cplusplus */
 
 #endif 	/* __IconOverlay16_FWD_DEFINED__ */
+
+
+#ifndef __IconOverlay17_FWD_DEFINED__
+#define __IconOverlay17_FWD_DEFINED__
+
+#ifdef __cplusplus
+typedef class IconOverlay17 IconOverlay17;
+#else
+typedef struct IconOverlay17 IconOverlay17;
+#endif /* __cplusplus */
+
+#endif 	/* __IconOverlay17_FWD_DEFINED__ */
+
+
+#ifndef __IconOverlay18_FWD_DEFINED__
+#define __IconOverlay18_FWD_DEFINED__
+
+#ifdef __cplusplus
+typedef class IconOverlay18 IconOverlay18;
+#else
+typedef struct IconOverlay18 IconOverlay18;
+#endif /* __cplusplus */
+
+#endif 	/* __IconOverlay18_FWD_DEFINED__ */
+
+
+#ifndef __IconOverlay19_FWD_DEFINED__
+#define __IconOverlay19_FWD_DEFINED__
+
+#ifdef __cplusplus
+typedef class IconOverlay19 IconOverlay19;
+#else
+typedef struct IconOverlay19 IconOverlay19;
+#endif /* __cplusplus */
+
+#endif 	/* __IconOverlay19_FWD_DEFINED__ */
+
+
+#ifndef __IconOverlay20_FWD_DEFINED__
+#define __IconOverlay20_FWD_DEFINED__
+
+#ifdef __cplusplus
+typedef class IconOverlay20 IconOverlay20;
+#else
+typedef struct IconOverlay20 IconOverlay20;
+#endif /* __cplusplus */
+
+#endif 	/* __IconOverlay20_FWD_DEFINED__ */
+
+
+#ifndef __IconOverlay21_FWD_DEFINED__
+#define __IconOverlay21_FWD_DEFINED__
+
+#ifdef __cplusplus
+typedef class IconOverlay21 IconOverlay21;
+#else
+typedef struct IconOverlay21 IconOverlay21;
+#endif /* __cplusplus */
+
+#endif 	/* __IconOverlay21_FWD_DEFINED__ */
+
+
+#ifndef __IconOverlay22_FWD_DEFINED__
+#define __IconOverlay22_FWD_DEFINED__
+
+#ifdef __cplusplus
+typedef class IconOverlay22 IconOverlay22;
+#else
+typedef struct IconOverlay22 IconOverlay22;
+#endif /* __cplusplus */
+
+#endif 	/* __IconOverlay22_FWD_DEFINED__ */
 
 
 /* header files for imported files */
@@ -2278,6 +2392,726 @@ EXTERN_C const IID IID_IIconOverlay16;
 #endif 	/* __IIconOverlay16_INTERFACE_DEFINED__ */
 
 
+#ifndef __IIconOverlay17_INTERFACE_DEFINED__
+#define __IIconOverlay17_INTERFACE_DEFINED__
+
+/* interface IIconOverlay17 */
+/* [unique][nonextensible][dual][uuid][object] */ 
+
+
+EXTERN_C const IID IID_IIconOverlay17;
+
+#if defined(__cplusplus) && !defined(CINTERFACE)
+    
+    MIDL_INTERFACE("66f0cf5a-9222-445c-b1d2-e674eb4d5c21")
+    IIconOverlay17 : public IDispatch
+    {
+    public:
+    };
+    
+    
+#else 	/* C style interface */
+
+    typedef struct IIconOverlay17Vtbl
+    {
+        BEGIN_INTERFACE
+        
+        HRESULT ( STDMETHODCALLTYPE *QueryInterface )( 
+            IIconOverlay17 * This,
+            /* [in] */ REFIID riid,
+            /* [annotation][iid_is][out] */ 
+            _COM_Outptr_  void **ppvObject);
+        
+        ULONG ( STDMETHODCALLTYPE *AddRef )( 
+            IIconOverlay17 * This);
+        
+        ULONG ( STDMETHODCALLTYPE *Release )( 
+            IIconOverlay17 * This);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetTypeInfoCount )( 
+            IIconOverlay17 * This,
+            /* [out] */ UINT *pctinfo);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetTypeInfo )( 
+            IIconOverlay17 * This,
+            /* [in] */ UINT iTInfo,
+            /* [in] */ LCID lcid,
+            /* [out] */ ITypeInfo **ppTInfo);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetIDsOfNames )( 
+            IIconOverlay17 * This,
+            /* [in] */ REFIID riid,
+            /* [size_is][in] */ LPOLESTR *rgszNames,
+            /* [range][in] */ UINT cNames,
+            /* [in] */ LCID lcid,
+            /* [size_is][out] */ DISPID *rgDispId);
+        
+        /* [local] */ HRESULT ( STDMETHODCALLTYPE *Invoke )( 
+            IIconOverlay17 * This,
+            /* [annotation][in] */ 
+            _In_  DISPID dispIdMember,
+            /* [annotation][in] */ 
+            _In_  REFIID riid,
+            /* [annotation][in] */ 
+            _In_  LCID lcid,
+            /* [annotation][in] */ 
+            _In_  WORD wFlags,
+            /* [annotation][out][in] */ 
+            _In_  DISPPARAMS *pDispParams,
+            /* [annotation][out] */ 
+            _Out_opt_  VARIANT *pVarResult,
+            /* [annotation][out] */ 
+            _Out_opt_  EXCEPINFO *pExcepInfo,
+            /* [annotation][out] */ 
+            _Out_opt_  UINT *puArgErr);
+        
+        END_INTERFACE
+    } IIconOverlay17Vtbl;
+
+    interface IIconOverlay17
+    {
+        CONST_VTBL struct IIconOverlay17Vtbl *lpVtbl;
+    };
+
+    
+
+#ifdef COBJMACROS
+
+
+#define IIconOverlay17_QueryInterface(This,riid,ppvObject)	\
+    ( (This)->lpVtbl -> QueryInterface(This,riid,ppvObject) ) 
+
+#define IIconOverlay17_AddRef(This)	\
+    ( (This)->lpVtbl -> AddRef(This) ) 
+
+#define IIconOverlay17_Release(This)	\
+    ( (This)->lpVtbl -> Release(This) ) 
+
+
+#define IIconOverlay17_GetTypeInfoCount(This,pctinfo)	\
+    ( (This)->lpVtbl -> GetTypeInfoCount(This,pctinfo) ) 
+
+#define IIconOverlay17_GetTypeInfo(This,iTInfo,lcid,ppTInfo)	\
+    ( (This)->lpVtbl -> GetTypeInfo(This,iTInfo,lcid,ppTInfo) ) 
+
+#define IIconOverlay17_GetIDsOfNames(This,riid,rgszNames,cNames,lcid,rgDispId)	\
+    ( (This)->lpVtbl -> GetIDsOfNames(This,riid,rgszNames,cNames,lcid,rgDispId) ) 
+
+#define IIconOverlay17_Invoke(This,dispIdMember,riid,lcid,wFlags,pDispParams,pVarResult,pExcepInfo,puArgErr)	\
+    ( (This)->lpVtbl -> Invoke(This,dispIdMember,riid,lcid,wFlags,pDispParams,pVarResult,pExcepInfo,puArgErr) ) 
+
+
+#endif /* COBJMACROS */
+
+
+#endif 	/* C style interface */
+
+
+
+
+#endif 	/* __IIconOverlay17_INTERFACE_DEFINED__ */
+
+
+#ifndef __IIconOverlay18_INTERFACE_DEFINED__
+#define __IIconOverlay18_INTERFACE_DEFINED__
+
+/* interface IIconOverlay18 */
+/* [unique][nonextensible][dual][uuid][object] */ 
+
+
+EXTERN_C const IID IID_IIconOverlay18;
+
+#if defined(__cplusplus) && !defined(CINTERFACE)
+    
+    MIDL_INTERFACE("16c8c700-ca21-49a8-a03c-0732a63ed51d")
+    IIconOverlay18 : public IDispatch
+    {
+    public:
+    };
+    
+    
+#else 	/* C style interface */
+
+    typedef struct IIconOverlay18Vtbl
+    {
+        BEGIN_INTERFACE
+        
+        HRESULT ( STDMETHODCALLTYPE *QueryInterface )( 
+            IIconOverlay18 * This,
+            /* [in] */ REFIID riid,
+            /* [annotation][iid_is][out] */ 
+            _COM_Outptr_  void **ppvObject);
+        
+        ULONG ( STDMETHODCALLTYPE *AddRef )( 
+            IIconOverlay18 * This);
+        
+        ULONG ( STDMETHODCALLTYPE *Release )( 
+            IIconOverlay18 * This);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetTypeInfoCount )( 
+            IIconOverlay18 * This,
+            /* [out] */ UINT *pctinfo);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetTypeInfo )( 
+            IIconOverlay18 * This,
+            /* [in] */ UINT iTInfo,
+            /* [in] */ LCID lcid,
+            /* [out] */ ITypeInfo **ppTInfo);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetIDsOfNames )( 
+            IIconOverlay18 * This,
+            /* [in] */ REFIID riid,
+            /* [size_is][in] */ LPOLESTR *rgszNames,
+            /* [range][in] */ UINT cNames,
+            /* [in] */ LCID lcid,
+            /* [size_is][out] */ DISPID *rgDispId);
+        
+        /* [local] */ HRESULT ( STDMETHODCALLTYPE *Invoke )( 
+            IIconOverlay18 * This,
+            /* [annotation][in] */ 
+            _In_  DISPID dispIdMember,
+            /* [annotation][in] */ 
+            _In_  REFIID riid,
+            /* [annotation][in] */ 
+            _In_  LCID lcid,
+            /* [annotation][in] */ 
+            _In_  WORD wFlags,
+            /* [annotation][out][in] */ 
+            _In_  DISPPARAMS *pDispParams,
+            /* [annotation][out] */ 
+            _Out_opt_  VARIANT *pVarResult,
+            /* [annotation][out] */ 
+            _Out_opt_  EXCEPINFO *pExcepInfo,
+            /* [annotation][out] */ 
+            _Out_opt_  UINT *puArgErr);
+        
+        END_INTERFACE
+    } IIconOverlay18Vtbl;
+
+    interface IIconOverlay18
+    {
+        CONST_VTBL struct IIconOverlay18Vtbl *lpVtbl;
+    };
+
+    
+
+#ifdef COBJMACROS
+
+
+#define IIconOverlay18_QueryInterface(This,riid,ppvObject)	\
+    ( (This)->lpVtbl -> QueryInterface(This,riid,ppvObject) ) 
+
+#define IIconOverlay18_AddRef(This)	\
+    ( (This)->lpVtbl -> AddRef(This) ) 
+
+#define IIconOverlay18_Release(This)	\
+    ( (This)->lpVtbl -> Release(This) ) 
+
+
+#define IIconOverlay18_GetTypeInfoCount(This,pctinfo)	\
+    ( (This)->lpVtbl -> GetTypeInfoCount(This,pctinfo) ) 
+
+#define IIconOverlay18_GetTypeInfo(This,iTInfo,lcid,ppTInfo)	\
+    ( (This)->lpVtbl -> GetTypeInfo(This,iTInfo,lcid,ppTInfo) ) 
+
+#define IIconOverlay18_GetIDsOfNames(This,riid,rgszNames,cNames,lcid,rgDispId)	\
+    ( (This)->lpVtbl -> GetIDsOfNames(This,riid,rgszNames,cNames,lcid,rgDispId) ) 
+
+#define IIconOverlay18_Invoke(This,dispIdMember,riid,lcid,wFlags,pDispParams,pVarResult,pExcepInfo,puArgErr)	\
+    ( (This)->lpVtbl -> Invoke(This,dispIdMember,riid,lcid,wFlags,pDispParams,pVarResult,pExcepInfo,puArgErr) ) 
+
+
+#endif /* COBJMACROS */
+
+
+#endif 	/* C style interface */
+
+
+
+
+#endif 	/* __IIconOverlay18_INTERFACE_DEFINED__ */
+
+
+#ifndef __IIconOverlay19_INTERFACE_DEFINED__
+#define __IIconOverlay19_INTERFACE_DEFINED__
+
+/* interface IIconOverlay19 */
+/* [unique][nonextensible][dual][uuid][object] */ 
+
+
+EXTERN_C const IID IID_IIconOverlay19;
+
+#if defined(__cplusplus) && !defined(CINTERFACE)
+    
+    MIDL_INTERFACE("b6dcdf69-663e-4c39-9409-6661f01351ed")
+    IIconOverlay19 : public IDispatch
+    {
+    public:
+    };
+    
+    
+#else 	/* C style interface */
+
+    typedef struct IIconOverlay19Vtbl
+    {
+        BEGIN_INTERFACE
+        
+        HRESULT ( STDMETHODCALLTYPE *QueryInterface )( 
+            IIconOverlay19 * This,
+            /* [in] */ REFIID riid,
+            /* [annotation][iid_is][out] */ 
+            _COM_Outptr_  void **ppvObject);
+        
+        ULONG ( STDMETHODCALLTYPE *AddRef )( 
+            IIconOverlay19 * This);
+        
+        ULONG ( STDMETHODCALLTYPE *Release )( 
+            IIconOverlay19 * This);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetTypeInfoCount )( 
+            IIconOverlay19 * This,
+            /* [out] */ UINT *pctinfo);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetTypeInfo )( 
+            IIconOverlay19 * This,
+            /* [in] */ UINT iTInfo,
+            /* [in] */ LCID lcid,
+            /* [out] */ ITypeInfo **ppTInfo);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetIDsOfNames )( 
+            IIconOverlay19 * This,
+            /* [in] */ REFIID riid,
+            /* [size_is][in] */ LPOLESTR *rgszNames,
+            /* [range][in] */ UINT cNames,
+            /* [in] */ LCID lcid,
+            /* [size_is][out] */ DISPID *rgDispId);
+        
+        /* [local] */ HRESULT ( STDMETHODCALLTYPE *Invoke )( 
+            IIconOverlay19 * This,
+            /* [annotation][in] */ 
+            _In_  DISPID dispIdMember,
+            /* [annotation][in] */ 
+            _In_  REFIID riid,
+            /* [annotation][in] */ 
+            _In_  LCID lcid,
+            /* [annotation][in] */ 
+            _In_  WORD wFlags,
+            /* [annotation][out][in] */ 
+            _In_  DISPPARAMS *pDispParams,
+            /* [annotation][out] */ 
+            _Out_opt_  VARIANT *pVarResult,
+            /* [annotation][out] */ 
+            _Out_opt_  EXCEPINFO *pExcepInfo,
+            /* [annotation][out] */ 
+            _Out_opt_  UINT *puArgErr);
+        
+        END_INTERFACE
+    } IIconOverlay19Vtbl;
+
+    interface IIconOverlay19
+    {
+        CONST_VTBL struct IIconOverlay19Vtbl *lpVtbl;
+    };
+
+    
+
+#ifdef COBJMACROS
+
+
+#define IIconOverlay19_QueryInterface(This,riid,ppvObject)	\
+    ( (This)->lpVtbl -> QueryInterface(This,riid,ppvObject) ) 
+
+#define IIconOverlay19_AddRef(This)	\
+    ( (This)->lpVtbl -> AddRef(This) ) 
+
+#define IIconOverlay19_Release(This)	\
+    ( (This)->lpVtbl -> Release(This) ) 
+
+
+#define IIconOverlay19_GetTypeInfoCount(This,pctinfo)	\
+    ( (This)->lpVtbl -> GetTypeInfoCount(This,pctinfo) ) 
+
+#define IIconOverlay19_GetTypeInfo(This,iTInfo,lcid,ppTInfo)	\
+    ( (This)->lpVtbl -> GetTypeInfo(This,iTInfo,lcid,ppTInfo) ) 
+
+#define IIconOverlay19_GetIDsOfNames(This,riid,rgszNames,cNames,lcid,rgDispId)	\
+    ( (This)->lpVtbl -> GetIDsOfNames(This,riid,rgszNames,cNames,lcid,rgDispId) ) 
+
+#define IIconOverlay19_Invoke(This,dispIdMember,riid,lcid,wFlags,pDispParams,pVarResult,pExcepInfo,puArgErr)	\
+    ( (This)->lpVtbl -> Invoke(This,dispIdMember,riid,lcid,wFlags,pDispParams,pVarResult,pExcepInfo,puArgErr) ) 
+
+
+#endif /* COBJMACROS */
+
+
+#endif 	/* C style interface */
+
+
+
+
+#endif 	/* __IIconOverlay19_INTERFACE_DEFINED__ */
+
+
+#ifndef __IIconOverlay20_INTERFACE_DEFINED__
+#define __IIconOverlay20_INTERFACE_DEFINED__
+
+/* interface IIconOverlay20 */
+/* [unique][nonextensible][dual][uuid][object] */ 
+
+
+EXTERN_C const IID IID_IIconOverlay20;
+
+#if defined(__cplusplus) && !defined(CINTERFACE)
+    
+    MIDL_INTERFACE("2412fc21-8483-428a-9471-41a598efa729")
+    IIconOverlay20 : public IDispatch
+    {
+    public:
+    };
+    
+    
+#else 	/* C style interface */
+
+    typedef struct IIconOverlay20Vtbl
+    {
+        BEGIN_INTERFACE
+        
+        HRESULT ( STDMETHODCALLTYPE *QueryInterface )( 
+            IIconOverlay20 * This,
+            /* [in] */ REFIID riid,
+            /* [annotation][iid_is][out] */ 
+            _COM_Outptr_  void **ppvObject);
+        
+        ULONG ( STDMETHODCALLTYPE *AddRef )( 
+            IIconOverlay20 * This);
+        
+        ULONG ( STDMETHODCALLTYPE *Release )( 
+            IIconOverlay20 * This);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetTypeInfoCount )( 
+            IIconOverlay20 * This,
+            /* [out] */ UINT *pctinfo);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetTypeInfo )( 
+            IIconOverlay20 * This,
+            /* [in] */ UINT iTInfo,
+            /* [in] */ LCID lcid,
+            /* [out] */ ITypeInfo **ppTInfo);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetIDsOfNames )( 
+            IIconOverlay20 * This,
+            /* [in] */ REFIID riid,
+            /* [size_is][in] */ LPOLESTR *rgszNames,
+            /* [range][in] */ UINT cNames,
+            /* [in] */ LCID lcid,
+            /* [size_is][out] */ DISPID *rgDispId);
+        
+        /* [local] */ HRESULT ( STDMETHODCALLTYPE *Invoke )( 
+            IIconOverlay20 * This,
+            /* [annotation][in] */ 
+            _In_  DISPID dispIdMember,
+            /* [annotation][in] */ 
+            _In_  REFIID riid,
+            /* [annotation][in] */ 
+            _In_  LCID lcid,
+            /* [annotation][in] */ 
+            _In_  WORD wFlags,
+            /* [annotation][out][in] */ 
+            _In_  DISPPARAMS *pDispParams,
+            /* [annotation][out] */ 
+            _Out_opt_  VARIANT *pVarResult,
+            /* [annotation][out] */ 
+            _Out_opt_  EXCEPINFO *pExcepInfo,
+            /* [annotation][out] */ 
+            _Out_opt_  UINT *puArgErr);
+        
+        END_INTERFACE
+    } IIconOverlay20Vtbl;
+
+    interface IIconOverlay20
+    {
+        CONST_VTBL struct IIconOverlay20Vtbl *lpVtbl;
+    };
+
+    
+
+#ifdef COBJMACROS
+
+
+#define IIconOverlay20_QueryInterface(This,riid,ppvObject)	\
+    ( (This)->lpVtbl -> QueryInterface(This,riid,ppvObject) ) 
+
+#define IIconOverlay20_AddRef(This)	\
+    ( (This)->lpVtbl -> AddRef(This) ) 
+
+#define IIconOverlay20_Release(This)	\
+    ( (This)->lpVtbl -> Release(This) ) 
+
+
+#define IIconOverlay20_GetTypeInfoCount(This,pctinfo)	\
+    ( (This)->lpVtbl -> GetTypeInfoCount(This,pctinfo) ) 
+
+#define IIconOverlay20_GetTypeInfo(This,iTInfo,lcid,ppTInfo)	\
+    ( (This)->lpVtbl -> GetTypeInfo(This,iTInfo,lcid,ppTInfo) ) 
+
+#define IIconOverlay20_GetIDsOfNames(This,riid,rgszNames,cNames,lcid,rgDispId)	\
+    ( (This)->lpVtbl -> GetIDsOfNames(This,riid,rgszNames,cNames,lcid,rgDispId) ) 
+
+#define IIconOverlay20_Invoke(This,dispIdMember,riid,lcid,wFlags,pDispParams,pVarResult,pExcepInfo,puArgErr)	\
+    ( (This)->lpVtbl -> Invoke(This,dispIdMember,riid,lcid,wFlags,pDispParams,pVarResult,pExcepInfo,puArgErr) ) 
+
+
+#endif /* COBJMACROS */
+
+
+#endif 	/* C style interface */
+
+
+
+
+#endif 	/* __IIconOverlay20_INTERFACE_DEFINED__ */
+
+
+#ifndef __IIconOverlay21_INTERFACE_DEFINED__
+#define __IIconOverlay21_INTERFACE_DEFINED__
+
+/* interface IIconOverlay21 */
+/* [unique][nonextensible][dual][uuid][object] */ 
+
+
+EXTERN_C const IID IID_IIconOverlay21;
+
+#if defined(__cplusplus) && !defined(CINTERFACE)
+    
+    MIDL_INTERFACE("4a38205b-12d0-48ae-ba0b-9afd8fcfa949")
+    IIconOverlay21 : public IDispatch
+    {
+    public:
+    };
+    
+    
+#else 	/* C style interface */
+
+    typedef struct IIconOverlay21Vtbl
+    {
+        BEGIN_INTERFACE
+        
+        HRESULT ( STDMETHODCALLTYPE *QueryInterface )( 
+            IIconOverlay21 * This,
+            /* [in] */ REFIID riid,
+            /* [annotation][iid_is][out] */ 
+            _COM_Outptr_  void **ppvObject);
+        
+        ULONG ( STDMETHODCALLTYPE *AddRef )( 
+            IIconOverlay21 * This);
+        
+        ULONG ( STDMETHODCALLTYPE *Release )( 
+            IIconOverlay21 * This);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetTypeInfoCount )( 
+            IIconOverlay21 * This,
+            /* [out] */ UINT *pctinfo);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetTypeInfo )( 
+            IIconOverlay21 * This,
+            /* [in] */ UINT iTInfo,
+            /* [in] */ LCID lcid,
+            /* [out] */ ITypeInfo **ppTInfo);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetIDsOfNames )( 
+            IIconOverlay21 * This,
+            /* [in] */ REFIID riid,
+            /* [size_is][in] */ LPOLESTR *rgszNames,
+            /* [range][in] */ UINT cNames,
+            /* [in] */ LCID lcid,
+            /* [size_is][out] */ DISPID *rgDispId);
+        
+        /* [local] */ HRESULT ( STDMETHODCALLTYPE *Invoke )( 
+            IIconOverlay21 * This,
+            /* [annotation][in] */ 
+            _In_  DISPID dispIdMember,
+            /* [annotation][in] */ 
+            _In_  REFIID riid,
+            /* [annotation][in] */ 
+            _In_  LCID lcid,
+            /* [annotation][in] */ 
+            _In_  WORD wFlags,
+            /* [annotation][out][in] */ 
+            _In_  DISPPARAMS *pDispParams,
+            /* [annotation][out] */ 
+            _Out_opt_  VARIANT *pVarResult,
+            /* [annotation][out] */ 
+            _Out_opt_  EXCEPINFO *pExcepInfo,
+            /* [annotation][out] */ 
+            _Out_opt_  UINT *puArgErr);
+        
+        END_INTERFACE
+    } IIconOverlay21Vtbl;
+
+    interface IIconOverlay21
+    {
+        CONST_VTBL struct IIconOverlay21Vtbl *lpVtbl;
+    };
+
+    
+
+#ifdef COBJMACROS
+
+
+#define IIconOverlay21_QueryInterface(This,riid,ppvObject)	\
+    ( (This)->lpVtbl -> QueryInterface(This,riid,ppvObject) ) 
+
+#define IIconOverlay21_AddRef(This)	\
+    ( (This)->lpVtbl -> AddRef(This) ) 
+
+#define IIconOverlay21_Release(This)	\
+    ( (This)->lpVtbl -> Release(This) ) 
+
+
+#define IIconOverlay21_GetTypeInfoCount(This,pctinfo)	\
+    ( (This)->lpVtbl -> GetTypeInfoCount(This,pctinfo) ) 
+
+#define IIconOverlay21_GetTypeInfo(This,iTInfo,lcid,ppTInfo)	\
+    ( (This)->lpVtbl -> GetTypeInfo(This,iTInfo,lcid,ppTInfo) ) 
+
+#define IIconOverlay21_GetIDsOfNames(This,riid,rgszNames,cNames,lcid,rgDispId)	\
+    ( (This)->lpVtbl -> GetIDsOfNames(This,riid,rgszNames,cNames,lcid,rgDispId) ) 
+
+#define IIconOverlay21_Invoke(This,dispIdMember,riid,lcid,wFlags,pDispParams,pVarResult,pExcepInfo,puArgErr)	\
+    ( (This)->lpVtbl -> Invoke(This,dispIdMember,riid,lcid,wFlags,pDispParams,pVarResult,pExcepInfo,puArgErr) ) 
+
+
+#endif /* COBJMACROS */
+
+
+#endif 	/* C style interface */
+
+
+
+
+#endif 	/* __IIconOverlay21_INTERFACE_DEFINED__ */
+
+
+#ifndef __IIconOverlay22_INTERFACE_DEFINED__
+#define __IIconOverlay22_INTERFACE_DEFINED__
+
+/* interface IIconOverlay22 */
+/* [unique][nonextensible][dual][uuid][object] */ 
+
+
+EXTERN_C const IID IID_IIconOverlay22;
+
+#if defined(__cplusplus) && !defined(CINTERFACE)
+    
+    MIDL_INTERFACE("f6eca174-8e3d-45da-b360-8fcbf714ba08")
+    IIconOverlay22 : public IDispatch
+    {
+    public:
+    };
+    
+    
+#else 	/* C style interface */
+
+    typedef struct IIconOverlay22Vtbl
+    {
+        BEGIN_INTERFACE
+        
+        HRESULT ( STDMETHODCALLTYPE *QueryInterface )( 
+            IIconOverlay22 * This,
+            /* [in] */ REFIID riid,
+            /* [annotation][iid_is][out] */ 
+            _COM_Outptr_  void **ppvObject);
+        
+        ULONG ( STDMETHODCALLTYPE *AddRef )( 
+            IIconOverlay22 * This);
+        
+        ULONG ( STDMETHODCALLTYPE *Release )( 
+            IIconOverlay22 * This);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetTypeInfoCount )( 
+            IIconOverlay22 * This,
+            /* [out] */ UINT *pctinfo);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetTypeInfo )( 
+            IIconOverlay22 * This,
+            /* [in] */ UINT iTInfo,
+            /* [in] */ LCID lcid,
+            /* [out] */ ITypeInfo **ppTInfo);
+        
+        HRESULT ( STDMETHODCALLTYPE *GetIDsOfNames )( 
+            IIconOverlay22 * This,
+            /* [in] */ REFIID riid,
+            /* [size_is][in] */ LPOLESTR *rgszNames,
+            /* [range][in] */ UINT cNames,
+            /* [in] */ LCID lcid,
+            /* [size_is][out] */ DISPID *rgDispId);
+        
+        /* [local] */ HRESULT ( STDMETHODCALLTYPE *Invoke )( 
+            IIconOverlay22 * This,
+            /* [annotation][in] */ 
+            _In_  DISPID dispIdMember,
+            /* [annotation][in] */ 
+            _In_  REFIID riid,
+            /* [annotation][in] */ 
+            _In_  LCID lcid,
+            /* [annotation][in] */ 
+            _In_  WORD wFlags,
+            /* [annotation][out][in] */ 
+            _In_  DISPPARAMS *pDispParams,
+            /* [annotation][out] */ 
+            _Out_opt_  VARIANT *pVarResult,
+            /* [annotation][out] */ 
+            _Out_opt_  EXCEPINFO *pExcepInfo,
+            /* [annotation][out] */ 
+            _Out_opt_  UINT *puArgErr);
+        
+        END_INTERFACE
+    } IIconOverlay22Vtbl;
+
+    interface IIconOverlay22
+    {
+        CONST_VTBL struct IIconOverlay22Vtbl *lpVtbl;
+    };
+
+    
+
+#ifdef COBJMACROS
+
+
+#define IIconOverlay22_QueryInterface(This,riid,ppvObject)	\
+    ( (This)->lpVtbl -> QueryInterface(This,riid,ppvObject) ) 
+
+#define IIconOverlay22_AddRef(This)	\
+    ( (This)->lpVtbl -> AddRef(This) ) 
+
+#define IIconOverlay22_Release(This)	\
+    ( (This)->lpVtbl -> Release(This) ) 
+
+
+#define IIconOverlay22_GetTypeInfoCount(This,pctinfo)	\
+    ( (This)->lpVtbl -> GetTypeInfoCount(This,pctinfo) ) 
+
+#define IIconOverlay22_GetTypeInfo(This,iTInfo,lcid,ppTInfo)	\
+    ( (This)->lpVtbl -> GetTypeInfo(This,iTInfo,lcid,ppTInfo) ) 
+
+#define IIconOverlay22_GetIDsOfNames(This,riid,rgszNames,cNames,lcid,rgDispId)	\
+    ( (This)->lpVtbl -> GetIDsOfNames(This,riid,rgszNames,cNames,lcid,rgDispId) ) 
+
+#define IIconOverlay22_Invoke(This,dispIdMember,riid,lcid,wFlags,pDispParams,pVarResult,pExcepInfo,puArgErr)	\
+    ( (This)->lpVtbl -> Invoke(This,dispIdMember,riid,lcid,wFlags,pDispParams,pVarResult,pExcepInfo,puArgErr) ) 
+
+
+#endif /* COBJMACROS */
+
+
+#endif 	/* C style interface */
+
+
+
+
+#endif 	/* __IIconOverlay22_INTERFACE_DEFINED__ */
+
+
 
 #ifndef __IconOverlaysLib_LIBRARY_DEFINED__
 #define __IconOverlaysLib_LIBRARY_DEFINED__
@@ -2414,6 +3248,54 @@ EXTERN_C const CLSID CLSID_IconOverlay16;
 
 class DECLSPEC_UUID("8be7ac72-6bba-43ad-ab38-720554f6f8f4")
 IconOverlay16;
+#endif
+
+EXTERN_C const CLSID CLSID_IconOverlay17;
+
+#ifdef __cplusplus
+
+class DECLSPEC_UUID("59bc5828-fe6c-4b19-8b43-34ac6cce2c52")
+IconOverlay17;
+#endif
+
+EXTERN_C const CLSID CLSID_IconOverlay18;
+
+#ifdef __cplusplus
+
+class DECLSPEC_UUID("ce157591-fe37-4af9-81bc-a3f05a3afd9b")
+IconOverlay18;
+#endif
+
+EXTERN_C const CLSID CLSID_IconOverlay19;
+
+#ifdef __cplusplus
+
+class DECLSPEC_UUID("e19243d1-7019-4bae-9aad-1bc7c5592c82")
+IconOverlay19;
+#endif
+
+EXTERN_C const CLSID CLSID_IconOverlay20;
+
+#ifdef __cplusplus
+
+class DECLSPEC_UUID("fd1dbfae-6cbc-426d-a414-b27fc6c45145")
+IconOverlay20;
+#endif
+
+EXTERN_C const CLSID CLSID_IconOverlay21;
+
+#ifdef __cplusplus
+
+class DECLSPEC_UUID("fd9a4735-94b0-429f-9b25-b6dfbb3cd442")
+IconOverlay21;
+#endif
+
+EXTERN_C const CLSID CLSID_IconOverlay22;
+
+#ifdef __cplusplus
+
+class DECLSPEC_UUID("e1aabcae-b63c-43ae-8f79-858ea805b365")
+IconOverlay22;
 #endif
 #endif /* __IconOverlaysLib_LIBRARY_DEFINED__ */
 

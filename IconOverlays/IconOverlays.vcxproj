@@ -270,7 +270,13 @@
     <None Include="IconOverlay14.rgs" />
     <None Include="IconOverlay15.rgs" />
     <None Include="IconOverlay16.rgs" />
+    <None Include="IconOverlay17.rgs" />
+    <None Include="IconOverlay18.rgs" />
+    <None Include="IconOverlay19.rgs" />
     <None Include="IconOverlay2.rgs" />
+    <None Include="IconOverlay20.rgs" />
+    <None Include="IconOverlay21.rgs" />
+    <None Include="IconOverlay22.rgs" />
     <None Include="IconOverlay3.rgs" />
     <None Include="IconOverlay4.rgs" />
     <None Include="IconOverlay5.rgs" />
