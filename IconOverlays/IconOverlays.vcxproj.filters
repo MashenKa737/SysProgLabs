@@ -23,9 +23,6 @@
     <Filter Include="Resource Files\IconOverlays">
       <UniqueIdentifier>{59f63b21-9ba9-4277-9a47-32cf4cb3fad4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\IconOverlays">
-      <UniqueIdentifier>{411dbef2-659d-46b9-9529-fb9b46e4a3ae}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -43,7 +40,7 @@
     <ClCompile Include="IconOverlayBase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="IconOverlay1.cpp">
+    <ClCompile Include="IconOverlaysComposed.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -65,9 +62,6 @@
     </ClInclude>
     <ClInclude Include="IconOverlayBase.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="IconOverlay1.h">
-      <Filter>Header Files\IconOverlays</Filter>
     </ClInclude>
     <ClInclude Include="IconOverlayDefinition.h">
       <Filter>Header Files</Filter>

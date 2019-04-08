@@ -7,17 +7,16 @@
 
 using namespace ATL;
 
-class IconOverlayBase: public IShellIconOverlayIdentifier
-{
-	int iconIndex;
-	wchar_t* condition;
+class IconOverlayBase : public IShellIconOverlayIdentifier {
+    int iconIndex;
+    wchar_t* condition;
 
-	static bool pathEndsWith(wchar_t const* source, wchar_t const* substr);
+    static bool pathEndsWith(wchar_t const* source, wchar_t const* substr);
 
 public:
-	IconOverlayBase(const int iconIndex, wchar_t const* condition);
-	HRESULT STDMETHODCALLTYPE GetOverlayInfo(LPWSTR pwszIconFile, int cchMax, int * pIndex, DWORD * pdwFlags);
-	HRESULT STDMETHODCALLTYPE GetPriority(int * pPriority);
-	HRESULT STDMETHODCALLTYPE IsMemberOf(LPCWSTR pwszPath, DWORD dwAttrib);
-	~IconOverlayBase();
+    IconOverlayBase(const int iconIndex, wchar_t const* condition);
+    HRESULT STDMETHODCALLTYPE GetOverlayInfo(LPWSTR pwszIconFile, int cchMax, int * pIndex, DWORD * pdwFlags);
+    HRESULT STDMETHODCALLTYPE GetPriority(int * pPriority);
+    HRESULT STDMETHODCALLTYPE IsMemberOf(LPCWSTR pwszPath, DWORD dwAttrib);
+    ~IconOverlayBase();
 };
