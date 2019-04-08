@@ -1,0 +1,41 @@
+HKCR
+{
+	NoRemove CLSID
+	{
+		ForceRemove {4648b826-7b25-4e19-b92b-528e48fdeb5a} = s 'IconOverlay1 class'
+		{
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{20047940-0c74-45bd-bae8-52ebee052193}'
+			Version = s '1.0'
+		}
+	}
+}
+
+HKLM 
+{
+  NoRemove SOFTWARE 
+  {
+    NoRemove Microsoft 
+	{
+      NoRemove Windows 
+	  {
+        NoRemove CurrentVersion 
+		{
+          NoRemove Explorer 
+		  {
+            NoRemove ShellIconOverlayIdentifiers 
+			{
+              ForceRemove IconOverlay1 = s '{4648b826-7b25-4e19-b92b-528e48fdeb5a}' 
+			  {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
