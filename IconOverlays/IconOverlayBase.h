@@ -16,9 +16,8 @@ class IconOverlayBase: public IShellIconOverlayIdentifier
 
 public:
 	IconOverlayBase(const int iconIndex, wchar_t const* condition);
-	HRESULT GetOverlayInfo(LPWSTR pwszIconFile, int cchMax, int * pIndex, DWORD * pdwFlags);
-	HRESULT GetPriority(int * pPriority);
-	HRESULT IsMemberOf(LPCWSTR pwszPath, DWORD dwAttrib);
+	HRESULT STDMETHODCALLTYPE GetOverlayInfo(LPWSTR pwszIconFile, int cchMax, int * pIndex, DWORD * pdwFlags);
+	HRESULT STDMETHODCALLTYPE GetPriority(int * pPriority);
+	HRESULT STDMETHODCALLTYPE IsMemberOf(LPCWSTR pwszPath, DWORD dwAttrib);
 	~IconOverlayBase();
 };
-

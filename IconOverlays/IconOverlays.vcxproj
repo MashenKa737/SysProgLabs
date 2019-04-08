@@ -224,6 +224,8 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
       </PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="IconOverlay1.cpp" />
+    <ClCompile Include="IconOverlayBase.cpp" />
     <ClCompile Include="IconOverlays.cpp" />
     <ClCompile Include="IconOverlays_i.c">
       <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
@@ -248,6 +250,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dllmain.h" />
+    <ClInclude Include="IconOverlay1.h" />
+    <ClInclude Include="IconOverlayBase.h" />
+    <ClInclude Include="IconOverlayDefinition.h" />
     <ClInclude Include="IconOverlays_i.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
@@ -257,11 +262,51 @@
     <ResourceCompile Include="IconOverlays.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="IconOverlay1.rgs" />
+    <None Include="IconOverlay10.rgs" />
+    <None Include="IconOverlay11.rgs" />
+    <None Include="IconOverlay12.rgs" />
+    <None Include="IconOverlay13.rgs" />
+    <None Include="IconOverlay14.rgs" />
+    <None Include="IconOverlay15.rgs" />
+    <None Include="IconOverlay16.rgs" />
+    <None Include="IconOverlay2.rgs" />
+    <None Include="IconOverlay3.rgs" />
+    <None Include="IconOverlay4.rgs" />
+    <None Include="IconOverlay5.rgs" />
+    <None Include="IconOverlay6.rgs" />
+    <None Include="IconOverlay7.rgs" />
+    <None Include="IconOverlay8.rgs" />
+    <None Include="IconOverlay9.rgs" />
     <None Include="IconOverlays.def" />
     <None Include="IconOverlays.rgs" />
   </ItemGroup>
   <ItemGroup>
     <Midl Include="IconOverlays.idl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\resources\1.ico" />
+    <Image Include="..\resources\10.ico" />
+    <Image Include="..\resources\11.ico" />
+    <Image Include="..\resources\12.ico" />
+    <Image Include="..\resources\13.ico" />
+    <Image Include="..\resources\14.ico" />
+    <Image Include="..\resources\15.ico" />
+    <Image Include="..\resources\16.ico" />
+    <Image Include="..\resources\17.ico" />
+    <Image Include="..\resources\18.ico" />
+    <Image Include="..\resources\19.ico" />
+    <Image Include="..\resources\2.ico" />
+    <Image Include="..\resources\20.ico" />
+    <Image Include="..\resources\21.ico" />
+    <Image Include="..\resources\22.ico" />
+    <Image Include="..\resources\3.ico" />
+    <Image Include="..\resources\4.ico" />
+    <Image Include="..\resources\5.ico" />
+    <Image Include="..\resources\6.ico" />
+    <Image Include="..\resources\7.ico" />
+    <Image Include="..\resources\8.ico" />
+    <Image Include="..\resources\9.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

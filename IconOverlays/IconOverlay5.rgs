@@ -29,7 +29,7 @@ HKLM
 		  {
             NoRemove ShellIconOverlayIdentifiers 
 			{
-              ForceRemove IconOverlay5 = s '{a6a481ea-64be-496c-8bdd-860af17d64c6}' 
+              ForceRemove IconOverlay05 = s '{a6a481ea-64be-496c-8bdd-860af17d64c6}' 
 			  {
               }
             }

@@ -17,6 +17,15 @@
       <UniqueIdentifier>{f416e56b-0e45-4885-85aa-b4532bc3168e}</UniqueIdentifier>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="Resource Files\Icons">
+      <UniqueIdentifier>{9b9de1aa-f9e0-4bc1-8180-196a8c212c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\IconOverlays">
+      <UniqueIdentifier>{59f63b21-9ba9-4277-9a47-32cf4cb3fad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IconOverlays">
+      <UniqueIdentifier>{411dbef2-659d-46b9-9529-fb9b46e4a3ae}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -30,6 +39,12 @@
     </ClCompile>
     <ClCompile Include="IconOverlays_i.c">
       <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IconOverlayBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IconOverlay1.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -48,6 +63,15 @@
     <ClInclude Include="IconOverlays_i.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
+    <ClInclude Include="IconOverlayBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IconOverlay1.h">
+      <Filter>Header Files\IconOverlays</Filter>
+    </ClInclude>
+    <ClInclude Include="IconOverlayDefinition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="IconOverlays.rc">
@@ -61,10 +85,126 @@
     <None Include="IconOverlays.def">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="IconOverlay1.rgs">
+      <Filter>Resource Files\IconOverlays</Filter>
+    </None>
+    <None Include="IconOverlay2.rgs">
+      <Filter>Resource Files\IconOverlays</Filter>
+    </None>
+    <None Include="IconOverlay3.rgs">
+      <Filter>Resource Files\IconOverlays</Filter>
+    </None>
+    <None Include="IconOverlay4.rgs">
+      <Filter>Resource Files\IconOverlays</Filter>
+    </None>
+    <None Include="IconOverlay5.rgs">
+      <Filter>Resource Files\IconOverlays</Filter>
+    </None>
+    <None Include="IconOverlay6.rgs">
+      <Filter>Resource Files\IconOverlays</Filter>
+    </None>
+    <None Include="IconOverlay7.rgs">
+      <Filter>Resource Files\IconOverlays</Filter>
+    </None>
+    <None Include="IconOverlay8.rgs">
+      <Filter>Resource Files\IconOverlays</Filter>
+    </None>
+    <None Include="IconOverlay9.rgs">
+      <Filter>Resource Files\IconOverlays</Filter>
+    </None>
+    <None Include="IconOverlay10.rgs">
+      <Filter>Resource Files\IconOverlays</Filter>
+    </None>
+    <None Include="IconOverlay11.rgs">
+      <Filter>Resource Files\IconOverlays</Filter>
+    </None>
+    <None Include="IconOverlay12.rgs">
+      <Filter>Resource Files\IconOverlays</Filter>
+    </None>
+    <None Include="IconOverlay13.rgs">
+      <Filter>Resource Files\IconOverlays</Filter>
+    </None>
+    <None Include="IconOverlay14.rgs">
+      <Filter>Resource Files\IconOverlays</Filter>
+    </None>
+    <None Include="IconOverlay15.rgs">
+      <Filter>Resource Files\IconOverlays</Filter>
+    </None>
+    <None Include="IconOverlay16.rgs">
+      <Filter>Resource Files\IconOverlays</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Midl Include="IconOverlays.idl">
       <Filter>Source Files</Filter>
     </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\resources\1.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="..\resources\2.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="..\resources\3.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="..\resources\4.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="..\resources\5.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="..\resources\6.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="..\resources\7.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="..\resources\8.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="..\resources\9.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="..\resources\10.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="..\resources\11.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="..\resources\12.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="..\resources\13.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="..\resources\14.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="..\resources\15.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="..\resources\16.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="..\resources\17.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="..\resources\18.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="..\resources\19.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="..\resources\20.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="..\resources\21.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="..\resources\22.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
   </ItemGroup>
 </Project>
